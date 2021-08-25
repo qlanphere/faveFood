@@ -1,0 +1,30 @@
+.bodyPosition {
+    margin-top: 75px;
+}
+
+h1 {
+    font-family:"Rampart one";
+    letter-spacing :8px;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.subHeading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Venuerow {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-bottom:30px;
+    margin-top: 20px;
+    
+}
