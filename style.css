@@ -28,3 +28,31 @@ p {
     margin-top: 20px;
     
 }
+
+@media only screen and (orientation:portrait) {
+    article > section {
+        color:plum
+    }
+}
+
+article {
+    display:grid;
+    height:100%;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .img-vis {
+        display:none;
+    }
+    .Venuerow {
+        justify-content: center;
+    }
+     p {
+        font-weight: bold;
+    }
+    body > main > section {
+        flex-direction: column;
+    }
+}
